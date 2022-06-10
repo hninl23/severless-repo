@@ -1,6 +1,6 @@
 // start coding your function here!
-let hour = new Date ().getHours()
 function running_late()
+let hour = new Date ().getHours()
 {
 if (hour > 22 )
 {
