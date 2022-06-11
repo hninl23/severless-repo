@@ -9,4 +9,4 @@ function running_late(date){
 }
 
  
-exports.running_laate = running_late;
+exports.running_late = running_late;
