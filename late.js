@@ -1,6 +1,6 @@
 // start coding your function here!
 
-var date = new Date("December 17, 1995 03:24:00");
+var date = new Date(dateString);
 function running_late(date){
 
     var h = date.getHours();
@@ -11,5 +11,5 @@ function running_late(date){
     return"It is late!";
     return "It is still early!";
 }
-
+console.log(running_late(date))
 exports.running_late = running_late;
