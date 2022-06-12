@@ -6,7 +6,7 @@ function running_late(){
     var m = date.getMinutes();
     var s = date.getSeconds();
 
-    if (h < 21 && m <= 00 && s<=00)
+    if (h < 21 || m <= 00 || s<=00)
     return"It is still early!";
     return "It is late!";
 }
