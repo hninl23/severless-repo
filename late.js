@@ -6,7 +6,7 @@ function running_late(date){
     var m = date.getMinutes();
     var s = date.getSeconds();
 
-    if (h >= 22){
+    if (h < 21){
         return "It is late!";
 
     }else {
