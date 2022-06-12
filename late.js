@@ -10,5 +10,4 @@ function running_late(date){
     return"It is late!";
     return "It is still early!";
 }
-
 exports.running_late = running_late;
