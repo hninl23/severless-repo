@@ -1,6 +1,6 @@
 // start coding your function here!
 
-var date = new Date();
+var date = new Date("December 17, 1995 03:24:00");
 function running_late(date){
 
     var h = date.getHours();
