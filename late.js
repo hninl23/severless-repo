@@ -1,7 +1,7 @@
 // start coding your function here!
-var date = new Date("December 17, 1995 22:24:00");
-function running_late(date){
-    //var date = new Date("December 17, 1995 22:24:00");
+
+function running_late(){
+    var date = new Date();
     var h = date.getHours();
     var m = date.getMinutes();
     var s = date.getSeconds();
