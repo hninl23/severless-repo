@@ -1,18 +1,20 @@
 // start coding your function here!
-var date = new Date();
-function running_late(){
-    
+
+function running_late(date){
+    var date = new Date();
     var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
+    //var m = date.getMinutes();
+    //var s = date.getSeconds();
 
-    if (h > 21 && m >= 00 && s>=00){
-    return"It is late!";
-
-    }else {
-        return "It is stil early!";
+    if (h >= 22) {
+        return"It is late!";
     }
-   
-}
+        //&& m >= 00 && s>=00)
+    else {
+        return "It is still early!"; 
+    }
+        
+    }
+          
 
 exports.running_late = running_late; 
