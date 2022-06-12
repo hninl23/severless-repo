@@ -7,8 +7,8 @@ function running_late(){
     var s = date.getSeconds();
 
     if (h >= 21 && m >= 00 && s>=00)
-    return"It is late!";
-    return "It is still early!";
+    return"It is still early!";
+    return "It is late!";
 }
 
 exports.running_late = running_late; 
